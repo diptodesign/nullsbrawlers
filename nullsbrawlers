@@ -7,9 +7,6 @@
     <meta name="description" content="Download Null's Brawl v66.293 APK with all brawlers unlocked, unlimited resources, new brawlers Sirius & Najia, exclusive skins, and private servers. 100,000+ downloads.">
     <meta name="keywords" content="nulls brawl, brawl stars private server, nulls brawl apk, sirius brawler, najia brawler, unlimited gems, all skins unlocked">
     
-    <!-- Google AdSense Verification -->
-    <meta name="google-adsense-account" content="ca-pub-4301639285097102">
-    
     <!-- Open Graph -->
     <meta property="og:title" content="Null's Brawl v66.293 - Sirius & Najia | Private Server APK">
     <meta property="og:description" content="Download latest Null's Brawl with all brawlers unlocked, unlimited resources, new brawlers Sirius & Najia, and exclusive skins.">
@@ -25,10 +22,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400;0,14..32,500;0,14..32,600;0,14..32,700;0,14..32,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    
-    <!-- Google AdSense Script -->
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4301639285097102"
-     crossorigin="anonymous"></script>
     
     <style>
         * {
@@ -75,9 +68,6 @@
             
             --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
             --transition-slow: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-            
-            /* Ad spacing */
-            --ad-margin: 30px 0;
         }
 
         body {
@@ -140,7 +130,7 @@
             left: 0;
             width: 100%;
             padding: 20px 0;
-            background: rgba(10, 15, 26, 0.95);
+            background: rgba(10, 15, 26, 0.9);
             backdrop-filter: blur(12px);
             border-bottom: 1px solid rgba(249, 184, 0, 0.15);
             z-index: 1000;
@@ -249,51 +239,6 @@
         .btn-small {
             padding: 10px 20px;
             font-size: 0.85rem;
-        }
-
-        /* Ad Containers - AdSense Compliant */
-        .ad-container {
-            margin: var(--ad-margin);
-            text-align: center;
-            min-height: 90px;
-            background: rgba(0, 0, 0, 0.2);
-            border: 1px dashed rgba(249, 184, 0, 0.2);
-            border-radius: var(--radius-md);
-            padding: 10px;
-            position: relative;
-        }
-
-        .ad-label {
-            position: absolute;
-            top: -10px;
-            left: 20px;
-            background: var(--bg-card);
-            padding: 2px 10px;
-            border-radius: var(--radius-full);
-            font-size: 0.7rem;
-            color: var(--text-muted);
-            border: 1px solid rgba(249, 184, 0, 0.2);
-        }
-
-        .ad-banner {
-            width: 100%;
-            max-width: 728px;
-            margin: 0 auto;
-            min-height: 90px;
-        }
-
-        .ad-rectangle {
-            width: 100%;
-            max-width: 300px;
-            margin: 0 auto;
-            min-height: 250px;
-        }
-
-        .ad-leaderboard {
-            width: 100%;
-            max-width: 728px;
-            margin: 20px auto;
-            min-height: 90px;
         }
 
         /* Hero Section */
@@ -1090,22 +1035,6 @@
         </div>
     </section>
 
-    <!-- Ad Space - Leaderboard Below Hero -->
-    <div class="container">
-        <div class="ad-container">
-            <div class="ad-label">Advertisement</div>
-            <ins class="adsbygoogle ad-leaderboard"
-                 style="display:block"
-                 data-ad-client="ca-pub-4301639285097102"
-                 data-ad-slot="1234567890"
-                 data-ad-format="horizontal"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-    </div>
-
     <!-- Version Info -->
     <section>
         <div class="container">
@@ -1162,22 +1091,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Ad Space - Rectangle Between Sections -->
-    <div class="container">
-        <div class="ad-container">
-            <div class="ad-label">Advertisement</div>
-            <ins class="adsbygoogle ad-rectangle"
-                 style="display:block"
-                 data-ad-client="ca-pub-4301639285097102"
-                 data-ad-slot="2345678901"
-                 data-ad-format="rectangle"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-    </div>
 
     <!-- New Brawlers Section -->
     <section id="brawlers">
@@ -1390,22 +1303,6 @@
             </div>
         </div>
     </section>
-
-    <!-- Ad Space - Between Sections -->
-    <div class="container">
-        <div class="ad-container">
-            <div class="ad-label">Advertisement</div>
-            <ins class="adsbygoogle ad-banner"
-                 style="display:block"
-                 data-ad-client="ca-pub-4301639285097102"
-                 data-ad-slot="3456789012"
-                 data-ad-format="auto"
-                 data-full-width-responsive="true"></ins>
-            <script>
-                 (adsbygoogle = window.adsbygoogle || []).push({});
-            </script>
-        </div>
-    </div>
 
     <!-- Download Section -->
     <section id="download">
@@ -1663,9 +1560,6 @@
                 }
             });
         });
-
-        // Push any remaining ads
-        (adsbygoogle = window.adsbygoogle || []).push({});
     </script>
 </body>
 </html>
