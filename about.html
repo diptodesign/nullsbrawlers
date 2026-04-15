@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>About Us - Null's Brawl Private Server</title>
+    <meta name="description" content="Learn about Null's Brawl - the leading private server for Brawl Stars. All brawlers unlocked, unlimited resources, and exclusive content.">
+    <meta name="google-adsense-account" content="ca-pub-5123188644150792">
+    <meta name="google-site-verification" content="0uE9jGlqzPaAgH64oD_uePRhgj_7xYsefvLUHbWrf94" />
+    
+    <link rel="icon" type="image/png" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23f9b800'/><text x='50' y='68' font-size='60' text-anchor='middle' fill='%230a0f1a' font-weight='bold'>N</text></svg>">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5123188644150792" crossorigin="anonymous"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        :root {
+            --primary: #f9b800;
+            --primary-dark: #e6a500;
+            --bg-deep: #0a0b12;
+            --bg-dark: #0f1119;
+            --bg-card: #161a25;
+            --text-primary: #ffffff;
+            --text-secondary: #e2e6f0;
+            --text-muted: #8a92b0;
+            --border-light: #252b3a;
+            --radius-lg: 28px;
+            --radius-md: 20px;
+        }
+        body {
+            background: var(--bg-deep);
+            font-family: 'Inter', sans-serif;
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+        h1, h2, h3 {
+            color: var(--text-primary);
+            letter-spacing: -0.02em;
+        }
+        h1 {
+            font-size: 2.5rem;
+            background: linear-gradient(135deg, #ffffff, #ffdd77);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        h2 {
+            font-size: 1.8rem;
+            margin: 30px 0 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary);
+            display: inline-block;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 12px 28px;
+            border-radius: 60px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #0a0b12;
+        }
+        .navbar {
+            position: sticky;
+            top: 0;
+            background: rgba(10,11,18,0.95);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(249,184,0,0.12);
+            padding: 14px 0;
+            z-index: 100;
+        }
+        .nav-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+        }
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 800;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            text-decoration: none;
+        }
+        .logo-icon {
+            width: 38px;
+            height: 38px;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0a0b12;
+        }
+        .logo span {
+            background: var(--primary);
+            padding: 5px 12px;
+            border-radius: 10px;
+            color: #0a0b12;
+        }
+        .nav-links {
+            display: flex;
+            gap: 28px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .nav-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+        .content-card {
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            padding: 45px;
+            margin: 40px 0;
+            border: 1px solid var(--border-light);
+        }
+        .team-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin: 40px 0;
+        }
+        .team-member {
+            text-align: center;
+            padding: 25px;
+            background: var(--bg-dark);
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border-light);
+        }
+        .team-member i {
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+        .footer {
+            margin-top: 60px;
+            padding: 40px 0;
+            border-top: 1px solid var(--border-light);
+            text-align: center;
+        }
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .footer-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+        }
+        .footer-links a:hover {
+            color: var(--primary);
+        }
+        @media (max-width: 700px) {
+            .content-card { padding: 25px; }
+            .nav-links { justify-content: center; width: 100%; }
+            h1 { font-size: 1.8rem; }
+        }
+    </style>
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="container nav-container">
+        <a href="index.html" class="logo">
+            <div class="logo-icon"><i class="fas fa-bolt"></i></div>
+            Null<span>'s Brawl</span>
+        </a>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="download.html">Download</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+        </div>
+    </div>
+</nav>
+
+<main class="container">
+    <div class="content-card">
+        <h1>About Us</h1>
+        <p style="margin-top: 20px;">Welcome to Null's Brawl, the leading private server for Brawl Stars enthusiasts worldwide.</p>
+        
+        <h2>Our Mission</h2>
+        <p>We are dedicated to providing the ultimate Brawl Stars experience without limitations. Our mission is to create a platform where players can enjoy all brawlers, skins, and resources without grinding or spending real money.</p>
+        
+        <h2>What We Offer</h2>
+        <p>Null's Brawl is a private server that gives players access to:</p>
+        <ul style="margin: 15px 0 15px 25px;">
+            <li>All brawlers unlocked from the start</li>
+            <li>Unlimited gems, coins, and power points</li>
+            <li>Exclusive custom skins not available in official game</li>
+            <li>Fast, lag-free private servers</li>
+            <li>No trophy loss on defeat</li>
+            <li>Regular updates with new content</li>
+        </ul>
+        
+        <h2>Our Community</h2>
+        <p>With over 150,000+ downloads and a growing community of passionate players, Null's Brawl has become the most trusted private server for Brawl Stars. We're proud to serve gamers who want to experience the game without restrictions.</p>
+        
+        <div class="team-grid">
+            <div class="team-member">
+                <i class="fas fa-code"></i>
+                <h3>Development Team</h3>
+                <p>Experienced developers ensuring smooth gameplay and regular updates</p>
+            </div>
+            <div class="team-member">
+                <i class="fas fa-users"></i>
+                <h3>Community Managers</h3>
+                <p>Dedicated team managing Discord and support channels</p>
+            </div>
+            <div class="team-member">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Security Team</h3>
+                <p>Ensuring safe and secure private server experience</p>
+            </div>
+        </div>
+        
+        <h2>Disclaimer</h2>
+        <p>Null's Brawl is an independent private server and is NOT affiliated with, endorsed by, or connected to Supercell. Brawl Stars is a trademark of Supercell. This project is for entertainment purposes only.</p>
+    </div>
+</main>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="privacy.html">Privacy</a>
+            <a href="terms.html">Terms</a>
+            <a href="dmca.html">DMCA</a>
+        </div>
+        <p>© 2026 Null's Brawl Private Server — Not affiliated with Supercell</p>
+    </div>
+</footer>
+</body>
+</html>
