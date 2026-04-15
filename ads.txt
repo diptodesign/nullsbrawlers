@@ -1,1 +1,4 @@
+# Google AdSense ads.txt for nullsbrawlers.netlify.app
+# Last updated: April 15, 2025
+
 google.com, pub-5123188644150792, DIRECT, f08c47fec0942fa0
