@@ -1,0 +1,33 @@
+# robots.txt for Null's Brawl Website
+# https://nullsbrawlers.netlify.app/
+
+User-agent: *
+Allow: /
+Allow: /index.html
+Allow: /download.html
+Allow: /about.html
+Allow: /contact.html
+Allow: /privacy.html
+Allow: /terms.html
+Allow: /disclaimer.html
+Allow: /dmca.html
+
+# Disallow admin or private areas (if any)
+Disallow: /cgi-bin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://nullsbrawlers.netlify.app/sitemap.xml
+
+# Crawl delay to be respectful to server
+Crawl-delay: 5
+
+# Specify Googlebot
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+# Specify Bingbot
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 2
